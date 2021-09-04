@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://www.ladspa.org/download/cmt_1.17.tgz",
-                    "sha256": "eb56d7abebfdf8a6d0ad65d012238c9fc394dd41eeca11900812a8cb6b07ad1f"
+                    "url": "http://www.ladspa.org/download/cmt_1.18.tgz",
+                    "sha256": "8f23abdb34d89b511f676c2fe17380dd4e580fa44b630abbb30910f7d6f0b33a"
                 },
                 {
                     "type": "patch",
