@@ -27,7 +27,7 @@
                 {
                     "type": "archive",
                     "url": "http://www.ladspa.org/download/cmt_1.18.tgz",
-                    "sha256": "8f23abdb34d89b511f676c2fe17380dd4e580fa44b630abbb30910f7d6f0b33a"
+                    "sha256": "a82f8636de1f4ada386a199a017a9cd775a49b49e716b11e8dd3f723c93df6ca"
                 },
                 {
                     "type": "patch",
