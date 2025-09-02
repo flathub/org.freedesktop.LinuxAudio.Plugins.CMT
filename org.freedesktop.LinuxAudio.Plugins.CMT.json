@@ -13,19 +13,18 @@
             "name": "cmt",
             "buildsystem": "simple",
             "build-commands": [
+                "mkdir ../plugins",
                 "make",
-                "make install"
-            ],
-            "post-install": [
-                "install -Dm644 --target-directory=${FLATPAK_DEST}/share/metainfo ../org.freedesktop.LinuxAudio.Plugins.CMT.metainfo.xml",
+                "make install",
+                "install -Dm644 -t ${FLATPAK_DEST}/share/metainfo ../org.freedesktop.LinuxAudio.Plugins.CMT.metainfo.xml",
                 "install -Dm644 -t $FLATPAK_DEST/share/licenses/cmt/ ../doc/COPYING"
             ],
             "subdir": "src",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "http://www.ladspa.org/download/cmt_1.18.tgz",
-                    "sha256": "a82f8636de1f4ada386a199a017a9cd775a49b49e716b11e8dd3f723c93df6ca"
+                    "type": "git",
+                    "url": "https://salsa.debian.org/multimedia-team/cmt.git",
+                    "commit": "0b79790da79cec4dd1e5c824b59faddac6b2164a"
                 },
                 {
                     "type": "patch",
